@@ -32,10 +32,6 @@ class SignUp extends React.Component {
         email,
         password
       );
-      console.log(
-        "displayName in sign-up component before createuserprofile",
-        displayName
-      );
 
       await createUserProfileDocument(user, { displayName });
 
